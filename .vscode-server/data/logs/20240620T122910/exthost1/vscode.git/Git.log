@@ -1,0 +1,63 @@
+2024-06-20 12:29:12.582 [info] Log level: Info
+2024-06-20 12:29:12.582 [info] Validating found git in: "git"
+2024-06-20 12:29:12.582 [info] Using git "2.34.1" from "git"
+2024-06-20 12:29:12.582 [info] > git rev-parse --show-toplevel [9ms]
+2024-06-20 12:29:12.582 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 12:29:12.582 [info] > git rev-parse --show-toplevel [30ms]
+2024-06-20 12:29:12.582 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 12:29:12.582 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-20 12:29:12.582 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 12:29:12.583 [info] > git rev-parse --show-toplevel [0ms]
+2024-06-20 12:29:12.583 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 12:29:12.585 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-20 12:29:12.585 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 12:29:12.588 [info] > git rev-parse --show-toplevel [1ms]
+2024-06-20 12:29:12.588 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 12:29:13.490 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-20 12:29:13.490 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 12:29:29.498 [info] > git rev-parse --show-toplevel [2ms]
+2024-06-20 12:29:29.498 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-06-20 17:33:51.979 [info] > git rev-parse --show-toplevel [3ms]
+2024-06-20 17:33:51.984 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-06-20 17:33:52.007 [info] Open repository: /home/saquicq
+2024-06-20 17:33:52.017 [info] No remotes found in the git config file.
+2024-06-20 17:33:52.018 [info] > git config --get commit.template [4ms]
+2024-06-20 17:33:52.018 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-06-20 17:33:52.021 [warning] No such branch: master.
+2024-06-20 17:33:52.321 [info] > git show --textconv :web.html [4ms]
+2024-06-20 17:33:52.324 [info] > git ls-files --stage -- /home/saquicq/web.html [4ms]
+2024-06-20 17:33:52.413 [info] > git status -z -uall [389ms]
+2024-06-20 17:33:52.491 [info] > git config --get commit.template [2ms]
+2024-06-20 17:33:52.493 [info] No remotes found in the git config file.
+2024-06-20 17:33:52.494 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-06-20 17:33:52.494 [warning] No such branch: master.
+2024-06-20 17:33:52.520 [info] > git status -z -uall [23ms]
+2024-06-20 17:33:52.577 [info] > git check-ignore -v -z --stdin [0ms]
+2024-06-20 17:38:47.577 [info] > git check-ignore -v -z --stdin [1ms]
+2024-06-20 17:45:46.948 [info] > git config --get commit.template [6ms]
+2024-06-20 17:45:46.949 [info] > git ls-files --stage -- /home/saquicq/web.html [2ms]
+2024-06-20 17:45:46.955 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-06-20 17:45:46.960 [info] > git cat-file -s ee7000aeb9c2695303231b813db47ee6efa4be74 [9ms]
+2024-06-20 17:45:46.967 [info] > git show --textconv :web.html [2ms]
+2024-06-20 17:45:47.306 [info] > git status -z -uall [347ms]
+2024-06-20 17:45:52.400 [info] > git config --get commit.template [4ms]
+2024-06-20 17:45:52.401 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-06-20 17:45:52.427 [info] > git status -z -uall [23ms]
+2024-06-20 17:45:57.473 [info] > git config --get commit.template [1ms]
+2024-06-20 17:45:57.478 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-06-20 17:45:57.504 [info] > git status -z -uall [22ms]
+2024-06-20 17:46:02.573 [info] > git config --get commit.template [9ms]
+2024-06-20 17:46:02.574 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-06-20 17:46:02.604 [info] > git status -z -uall [24ms]
+2024-06-20 17:46:07.650 [info] > git config --get commit.template [2ms]
+2024-06-20 17:46:07.650 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-06-20 17:46:07.668 [info] > git status -z -uall [16ms]
+2024-06-20 17:46:12.723 [info] > git config --get commit.template [9ms]
+2024-06-20 17:46:12.725 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-06-20 17:46:12.757 [info] > git status -z -uall [26ms]
+2024-06-20 17:46:17.807 [info] > git config --get commit.template [3ms]
+2024-06-20 17:46:17.808 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-06-20 17:46:17.829 [info] > git status -z -uall [19ms]
+2024-06-20 17:46:22.873 [info] > git config --get commit.template [3ms]
+2024-06-20 17:46:22.874 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-06-20 17:46:22.896 [info] > git status -z -uall [19ms]

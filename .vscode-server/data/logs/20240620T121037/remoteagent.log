@@ -1,0 +1,19 @@
+2024-06-20 12:10:37.497 [info] 
+
+
+
+
+2024-06-20 12:10:37.497 [info] Extension host agent started.
+2024-06-20 12:10:37.509 [info] Started initializing default profile extensions in extensions installation folder. file:///home/saquicq/.vscode-server/extensions
+2024-06-20 12:10:37.525 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/saquicq/.vscode-server/extensions
+2024-06-20 12:10:37.722 [info] [127.0.0.1][fb61f721][ManagementConnection] New connection established.
+2024-06-20 12:10:37.877 [info] [127.0.0.1][9ee87d60][ExtensionHostConnection] New connection established.
+2024-06-20 12:10:37.887 [info] [127.0.0.1][9ee87d60][ExtensionHostConnection] <80009> Launched Extension Host Process.
+2024-06-20 12:18:31.837 [info] Getting Manifest... ritwickdey.liveserver
+2024-06-20 12:18:32.137 [info] Installing extension: ritwickdey.liveserver file:///home/saquicq/.vscode-server/extensions/extensions.json
+2024-06-20 12:18:36.771 [info] Extension signature verification result for ritwickdey.liveserver: Success. Executed: true. Duration: 1905ms.
+2024-06-20 12:18:40.185 [info] Extracted extension to file:///home/saquicq/.vscode-server/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2024-06-20 12:18:40.193 [info] Renamed to /home/saquicq/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2024-06-20 12:18:40.249 [info] Extension installed successfully: ritwickdey.liveserver file:///home/saquicq/.vscode-server/extensions/extensions.json
+2024-06-20 12:18:54.174 [info] [127.0.0.1][fb61f721][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-06-20 12:18:54.267 [info] [127.0.0.1][9ee87d60][ExtensionHostConnection] <80009> Extension Host Process exited with code: 0, signal: null.
